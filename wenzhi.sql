@@ -1,0 +1,40 @@
+CREATE TABLE `jdwz_list` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `岗位代码` varchar(1024) DEFAULT NULL,
+  `地区` varchar(1024) DEFAULT NULL,
+  `招聘单位` varchar(1024) DEFAULT NULL,
+  `招聘职位` varchar(1024) DEFAULT NULL,
+  `专业` varchar(1024) DEFAULT NULL,
+  `专业科目` varchar(1024) DEFAULT NULL,
+  `招聘人数` varchar(1024) DEFAULT NULL,
+  `合格人数` varchar(1024) DEFAULT NULL,
+  `职位详情` varchar(1024) DEFAULT NULL,
+  `对比` varchar(1024) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=42769 DEFAULT CHARSET='utf8';
+
+CREATE TABLE `jdwz_detail` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `岗位代码` varchar(128) DEFAULT NULL,
+  `地区` varchar(1024) DEFAULT NULL,
+  `部委` varchar(1024) DEFAULT NULL,
+  `用人单位序号` varchar(1024) DEFAULT NULL,
+  `用人单位名称` varchar(1024) DEFAULT NULL,
+  `岗位类别` varchar(1024) DEFAULT NULL,
+  `岗位名称` varchar(1024) DEFAULT NULL,
+  `从事工作` varchar(1024) DEFAULT NULL,
+  `招考数量` varchar(1024) DEFAULT NULL,
+  `报名人数` varchar(1024) DEFAULT NULL,
+  `来源类别` varchar(1024) DEFAULT NULL,
+  `学历` varchar(1024) DEFAULT NULL,
+  `学位` varchar(1024) DEFAULT NULL,
+  `所学专业` varchar(1024) DEFAULT NULL,
+  `考试专业科目` varchar(1024) DEFAULT NULL,
+  `高校毕业生专业技术资格` varchar(1024) DEFAULT NULL,
+  `社会人才专业技术资格` varchar(1024) DEFAULT NULL,
+  `高校毕业生职业资格` varchar(1024) DEFAULT NULL,
+  `社会人才职业资格` varchar(1024) DEFAULT NULL,
+  `其他条件` varchar(1024) DEFAULT NULL,
+  `工作地点` varchar(1024) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=42769 DEFAULT CHARSET='utf8';
